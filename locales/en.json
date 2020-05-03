@@ -11,7 +11,10 @@
     },
     "about": {
         "title": "ABOUT",
-        "description": "Runespirit is a Teamfight Tactics Discord bot. It aims to provide the most accurate data possible, in a simple and quick way. The bot's objective is to eliminate the effort to open third party websites to get crucial information."
+        "description": "A very customizable multipurpose bot for welcome image, In-depth logs, Social commands, Music, Moderation and many more ...Best WelcomerOur welcomer welcomes users via a ready-to-use designs and customizble designsAuto ModerationProBots automod system detect bad users' behaviour and take actions on themAuto ResponderLet the bot responds to any trigger wordsAnti-raid Protection
+detect raid behavior and respond automatically at various levels
+
+."
     },
     "commands": {
         "title": "COMMANDS",
