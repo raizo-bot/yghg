@@ -35,7 +35,7 @@
 
 html, body {
     height: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 #firstDiv {
@@ -44,12 +44,9 @@ html, body {
     position: relative;
     top: 0;
     left: 0;
-    background: #c0392b;
-    /* Fallback for old browsers. */
-    background: -webkit-linear-gradient(to right, #8e44ad, #5752E2);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8e44ad, #5752E2);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(to left,#c558aa, #2582bd);
+    background: linear-gradient(to left,#c558aa, #2582bd);
 }
 
 .topBar {
@@ -68,7 +65,7 @@ html, body {
     float: left;
 }
 
-.topBar-GetBaron, .topBar-About, .topBar-Commands {
+.topBar-GetRunespirit, .topBar-About, .topBar-Commands {
     float: right;
     line-height: 61px;
 }
@@ -82,7 +79,7 @@ html, body {
     margin-right: 25px;
 }
 
-.topBar-GetBaron, .topBar-About, .topBar-Commands {
+.topBar-GetRunespirit, .topBar-About, .topBar-Commands {
     height: 100%;
     padding-left: 22px;
     padding-right: 22px;
@@ -103,8 +100,8 @@ html, body {
     transition: background-color 100ms linear;
 }
 
-.topBar-GetBaron {
-    background-color: #df18a6;
+.topBar-GetRunespirit {
+    background-color: #2781bd;
     cursor: pointer;
     cursor: hand;
     -webkit-transition: background-color 100ms linear;
@@ -114,8 +111,8 @@ html, body {
     transition: background-color 100ms linear;
 }
 
-.topBar-GetBaron:hover {
-    background-color: #D6249A;
+.topBar-GetRunespirit:hover {
+    background-color: #2e63ad;
     -webkit-transition: background-color 100ms linear;
     -moz-transition: background-color 100ms linear;
     -o-transition: background-color 100ms linear;
@@ -127,14 +124,14 @@ html, body {
     padding-left: 20px;
 }
 
-.baronImage {
+.runespiritImage {
     height: 55%;
     width: 55%;
     margin: 0 auto;
     margin-top: 104px;
 }
 
-.baronImage>img {
+.runespiritImage>img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -199,13 +196,9 @@ html, body {
 
 #commands {
     width: 100%;
-    background-color: #36393e;
-    background: #7474BF;
-    /* Fallback for old browsers. */
-    background: -webkit-linear-gradient(to right, #5A51DF, #7474BF);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5A51DF, #7474BF);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(to left,#c558aa, #2582bd);
+    background: linear-gradient(to left,#c558aa, #2582bd);
 }
 
 #commands>.tabela {
@@ -231,11 +224,11 @@ table {
     table-layout: fixed;
     font-family: FontRegular;
     margin-top: 20px;
-    border: 2px #CC2B9D solid;
+    border: 2px #2e63ad solid;
 }
 
 table th {
-    background-color: #CC2B9D;
+    background-color: #2e63ad;
     font-size: 15px;
     color: white;
 }
@@ -258,7 +251,7 @@ table th {
 }
 
 a:link {
-    color: #D6249A;
+    color: #2e63ad;
     text-decoration: none;
 }
 
@@ -276,12 +269,9 @@ a:link {
 }
 
 #about {
-    background: #DF18A6;
-    /* Fallback for old browsers. */
-    background: -webkit-linear-gradient(to right, #b24592, #8C45AF);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b24592, #8C45AF);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #16222A;
+    background: -webkit-linear-gradient(to right, #36393e, #262729);
+    background: linear-gradient(to right,  #36393e, #262729);
     width: 100%;
     text-align: center;
     font-family: FontRegular;
@@ -305,7 +295,7 @@ a:link {
 }
 
 .aboutContent {
-    padding-bottom: 50px;
+    padding-bottom: 55px;
 }
 
 footer {
@@ -331,7 +321,7 @@ footer>p>br {
 }
 
 footer>p>a {
-    color: #CC2B9D;
+    color: #2e63ad;
 }
 
 hr {
@@ -342,21 +332,15 @@ hr {
 }
 
 .serverA {
-    color: #551A8B !important;
+    color: #2e63ad !important;
     font-weight: bold;
 }
 
 .serverA:visited, .serverA:hover, .serverA:active {
-    color: #551A8B;
+    color: #2e63ad;
 }
 
 #contacts {
-    background: #DF18A6;
-    /* Fallback for old browsers. */
-    background: -webkit-linear-gradient(to right, #b24592, #8C45AF);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b24592, #8C45AF);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     text-align: center;
     font-family: FontRegular;
@@ -450,15 +434,12 @@ hr {
         background-color: #CC2B9D;
         color: white;
     }
-
     table {
         border: 0;
     }
-
     table caption {
         font-size: 1.3em;
     }
-    
     table thead {
         border: none;
         clip: rect(0 0 0 0);
@@ -469,7 +450,6 @@ hr {
         position: absolute;
         width: 1px;
     }
-
     table tr {
         display: block;
         margin-bottom: .625em;
@@ -477,32 +457,27 @@ hr {
         padding: 0;
         border-bottom: 3px solid #ddd;
     }
-
     table td {
         border-bottom: 1px solid #ddd;
         display: block;
         font-size: .8em;
         text-align: right;
     }
-
     table td:before {
         content: attr(data-label);
         float: left;
         font-weight: bold;
         text-transform: uppercase;
     }
-
     table td:last-child {
         border-bottom: 0;
     }
-
-    .baronImage {
+    .runespiritImage {
         height: 85%;
         width: 85%;
         margin-top: 40px;
         margin-bottom: 40px;
     }
-
     .quote {
         font-size: 18px;
         font-family: FontBold;
@@ -510,7 +485,6 @@ hr {
         margin-top: -100px;
         margin-bottom: 20px;
     }
-
     .stats {
         height: 95px;
         width: 300px;
@@ -518,7 +492,6 @@ hr {
         margin: 0 auto;
         border-radius: 10px;
     }
-
     .stats>div {
         height: 100%;
         width: 33.3%;
@@ -528,11 +501,9 @@ hr {
         font-size: 20px;
         color: white;
     }
-
     .discordServerImg {
         display: none;
     }
-
     .footer {
         background-color: #1A1A1A;
         text-align: center;
@@ -541,7 +512,6 @@ hr {
         font-size: 5px;
         font-weight: bold;
     }
-
     footer>p {
         font-size: 12px;
     }
@@ -557,18 +527,16 @@ hr {
     .topBar-Title {
         display: none;
     }
-
     .topBarImg {
         display: flex;
     }
-    
     .statsTitle {
         font-size: 17px;
     }
 }
 
 @media screen and (max-width: 362px) {
-    .topBar-GetBaron {
+    .topBar-GetRunespirit {
         font-size: 95%;
         padding-left: 13px;
         padding-right: 13px;
@@ -576,7 +544,7 @@ hr {
 }
 
 @media screen and (max-width: 326px) {
-    .topBar-GetBaron {
+    .topBar-GetRunespirit {
         font-size: 85%;
         padding-left: 12px;
         padding-right: 12px;

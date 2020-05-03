@@ -1,13 +1,12 @@
 $(document).ready(function () {
-    $("head").append("<link href='/imgs/Avatar.png' rel='shortcut icon' type='image/x-icon'/>");
+    $("head").append("<link href='/imgs/logo_cropped.png' rel='shortcut icon' type='image/x-icon'/>");
 
     setLanguage("en");
-    const ps = new PerfectScrollbar(".dropdown-content");
 
-    $.getJSON("https://api.github.com/gists/efcebfc278a8bffbd5bca68d3d2428ce", function (result) {
-        if(!result || !result.files || !result.files["baron-stats.json"]) return;
-        result = JSON.parse(result.files["baron-stats.json"].content);
-        
+    $.getJSON("https://api.github.com/gists/e33ab4d7098300518aa599428dcf06fd", function (result) {
+        if(!result || !result.files || !result.files["runespirit-stats.json"]) return;
+        result = JSON.parse(result.files["runespirit-stats.json"].content);
+
         //Insert stats.
         $(".statsServersNum").text(numberWithCommas(result.stats.s));
         $(".statsUsersNum").text(numberWithCommas(result.stats.u));
@@ -33,8 +32,8 @@ $(document).ready(function () {
     });
 
     //Top bar "shortcuts".
-    $(".topBar-GetBaron").on("click", function () {
-        window.open("https://discordapp.com/oauth2/authorize?&client_id=240482527695994880&scope=bot&permissions=52224", "_blank");
+    $(".topBar-GetRunespirit").on("click", function () {
+        window.open("https://discordapp.com/oauth2/authorize?client_id=594125647182299147&scope=bot&permissions=273472", "_blank");
     });
 
     $(".topBar-Commands").click(function () {
