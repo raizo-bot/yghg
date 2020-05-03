@@ -11,10 +11,7 @@
     },
     "about": {
         "title": "ABOUT",
-        "description": "A very customizable multipurpose bot for welcome image, In-depth logs, Social commands, Music, Moderation and many more ...Best WelcomerOur welcomer welcomes users via a ready-to-use designs and customizble designsAuto ModerationProBots automod system detect bad users' behaviour and take actions on themAuto ResponderLet the bot responds to any trigger wordsAnti-raid Protection
-detect raid behavior and respond automatically at various levels
-
-."
+        "description": "A very customizable multipurpose bot for welcome image, In-depth logs, Social commands, Music, Moderation and many more ...."
     },
     "commands": {
         "title": "COMMANDS",
