@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("head").append("<link href='/imgs/logo_cropped.png' rel='shortcut icon' type='image/x-icon'/>");
+    $("head").append("<link href='/1056ab0921edfc079ac2b118c1edc4a9.png' rel='shortcut icon' type='image/x-icon'/>");
 
     setLanguage("en");
 
@@ -8,9 +8,9 @@ $(document).ready(function () {
         result = JSON.parse(result.files["runespirit-stats.json"].content);
 
         //Insert stats.
-        $(".statsServersNum").text(numberWithCommas(result.stats.s));
-        $(".statsUsersNum").text(numberWithCommas(result.stats.u));
-        $(".statsChannelsNum").text(numberWithCommas(result.stats.c));
+        $(".statsServersNum").text(numberWithCommas(100));
+        $(".statsUsersNum").text(numberWithCommas(600));
+        $(".statsChannelsNum").text(numberWithCommas(1000));
 
         console.log("[x] Stats set successfully.");
 
